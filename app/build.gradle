@@ -23,9 +23,9 @@ android {
         release {
 
             storeFile file("../jenkins.jks")
-            storePassword gujingjing
-            keyAlias gujingjing
-            keyPassword gujingjing
+            storePassword "gujingjing"
+            keyAlias "gujingjing"
+            keyPassword "gujingjing"
 
             // 如果要支持最新版的系统 Android 7.0
             // 这一行必须加，否则安装时会提示没有签名
